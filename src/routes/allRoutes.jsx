@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../components/home";
 import About from "../components/about";
-import UserPage from "../components/userPage";
+// import UserPage from "../components/userPage";
 
 
 function Allroutes(){
@@ -10,7 +10,7 @@ function Allroutes(){
         <Routes>
          <Route path="/" element={<Home/>}/>
          <Route path="/about" element={<About/>}/>
-         <Route path="/users" element={<UserPage/>}/>
+         {/* <Route path="/users" element={<UserPage/>}/> */}
 
          
 
